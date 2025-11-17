@@ -1,1 +1,3 @@
-plotly
+plotly==6.2.0
+scipy==1.16.1
+numpy==2.3.2

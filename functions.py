@@ -7,8 +7,8 @@ import plotly.figure_factory as ff
 import scipy
 import numpy as np
 from plotly.subplots import make_subplots
-import plotnine
-from plotnine import ggplot, aes, geom_histogram, scale_x_log10, scale_color_manual, scale_fill_manual
+#import plotnine
+#from plotnine import ggplot, aes, geom_histogram, scale_x_log10, scale_color_manual, scale_fill_manual
 
 def filter_data(df, fallbck, incl_tags, excl_tags):
     ''' Applies filters stored in session to selected dataframe and returns a filtered dataframe.
