@@ -1,0 +1,120 @@
+
+body .stApp {
+    font-family: "Lucida Sans Unicode", sans serif;
+}
+
+.st-emotion-cache-9ajs8n p {
+    /* font-family: "Lucida Sans Unicode", sans serif; */
+    text-align: center;
+    }
+/* decreasing drop-dopwn height */
+.st-ae .st-bc{ height: 2rem; }
+.st-bi.st-ak { padding-top: 0.2em }
+
+/* numeric input - changing to the size of the drop down */
+.eaba2yi0 .st-bi.st-ak  { padding-top: 0.4em }
+.st-emotion-cache-1py5frv.eaba2yi0 { height: 2rem }
+
+/* Radio buttons and attached input*/
+.st-as.st-d7.st-d8.st-bg.st-d9.st-da.st-db.st-dc { min-height: 1rem }
+.stRadio .st-emotion-cache-1s2v671.e1gk92lc0 { margin-bottom: 0px;  } /* margin-top: 0.7rem */
+/* Conditional input after radiobuttons  */
+/*.stColumn.st-emotion-cache-cbquie.e1msl4mp1.e1msl4mp1 { padding: 0px 0.5rem ; margin-left: 1.5rem; width: 20px !important}
+.stColumn.st-emotion-cache-1llytxc.e1msl4mp1 { padding:0px }
+.stElementContainer.element-container.st-key-rev_per_sale.st-emotion-cache-v3w3zg.e1msl4mp0 {padding-left: 1.5rem}
+.st-key-rev_per_sale .st-emotion-cache-1py5frv.eaba2yi0 {max-width: 15rem} */
+.stVerticalBlock.st-key-condContainer.st-emotion-cache-p6n0jw.e1msl4mp2 .stColumn.st-emotion-cache-1i94pul.e1msl4mp1 {
+    padding: 0px;
+    padding-top: 0.5em}
+
+.stVerticalBlock.st-key-condContainer.st-emotion-cache-p6n0jw.e1msl4mp2 .stColumn.st-emotion-cache-1i94pul.e1msl4mp1:nth-child(1) {
+    padding-left: 1.5rem}
+.stVerticalBlock.st-key-condContainer.st-emotion-cache-p6n0jw.e1msl4mp2 .stColumn.st-emotion-cache-1i94pul.e1msl4mp1:nth-child(2) .st-emotion-cache-1an99fx.etvjjhi0 {
+    font-size: 1rem}
+.stVerticalBlock.st-key-condContainer.st-emotion-cache-p6n0jw.e1msl4mp2 .stHorizontalBlock.st-emotion-cache-rra9ig.e1msl4mp2 {
+    align-items: center;
+   /* column-gap: 2rem */
+    }
+.st-key-condContainer .div.stHorizontalBlock { column-gap: 0.5rem}
+
+/* decreasing padding at the top of the page */
+.stMainBlockContainer.st-emotion-cache-zy6yx3 { padding-top: 2rem}
+
+/* Decreasing / changing tags column sizes and spacing */
+.stMarkdownBadge { font-size: 1rem !important}
+.st-emotion-cache-9fqyt2 span.stMarkdownBadge {padding: 0px 0.6rem !important}
+
+.stColumn.st-emotion-cache-1i94pul .st-emotion-cache-ko87jo {
+    row-gap: 0.3rem !important;
+    /*gap: 0.3em !important} */
+
+.stElementContainer:nth-child(3) .stText .st-emotion-cache-1an99fx {
+    padding-top: 1.1rem !important; }
+.stElementContainer .stText .st-emotion-cache-1an99fx {}
+        font-size: 0.875rem; }
+
+/* */
+.stColumn {padding: 1rem}
+
+/* checkboxes*/
+.st-emotion-cache-bvleps p {
+    font-size: 0.9rem;
+     line-height: 1.7  }
+.stCheckbox { min-width: 12ch}
+
+.stVerticalBlock.st-emotion-cache-ko87jo.e1msl4mp2 { row-gap: .2em}
+
+.stExpander .stColumn { padding-top: 0.1rem}
+
+.stExpander .stText .st-emotion-cache-1an99fx {
+    font-size: 0.85em;
+    margin-top: 1em}
+
+/* 'Selected games' text*/
+.st-emotion-cache-p6n0jw.e1msl4mp2 > .stElementContainer.element-container.st-emotion-cache-9ko04w.e1msl4mp0 >
+.stText.st-emotion-cache-y4bq5x.e1pw9gww1 > .st-emotion-cache-1an99fx.etvjjhi0,
+.st-emotion-cache-ko87jo.e1msl4mp2 > .stElementContainer.element-container.st-emotion-cache-9ko04w.e1msl4mp0 >
+.stText.st-emotion-cache-y4bq5x.e1pw9gww1 > .st-emotion-cache-1an99fx.etvjjhi0  {
+   font-size: 0.85rem;
+   padding: 0px;}
+   /*  */
+ /*.stVerticalBlock.st-emotion-cache-p6n0jw.e1msl4mp2 > .stVerticalBlock.st-emotion-cache-p6n0jw.e1msl4mp2:nth-child(3),
+  .stVerticalBlock.st-emotion-cache-p6n0jw.e1msl4mp2 > .stVerticalBlock.st-emotion-cache-p6n0jw.e1msl4mp2:nth-child(3),*/
+  .stVerticalBlock.st-key-selectedContainer{
+    justify-content: flex-end;
+    flex-direction: row !important;
+}
+
+.stVerticalBlock.st-key-filterContainer {
+    border: 2px solid steelblue;
+    border-radius: 10px;
+    padding: 10px 15px
+    }
+
+
+.stElementContainer.element-container.st-emotion-cache-9ko04w.e1msl4mp0:nth-child(3) {padding-top:1rem}
+
+.stVerticalBlock.st-emotion-cache-p6n0jw.e1msl4mp2 > .stVerticalBlock.st-emotion-cache-p6n0jw.e1msl4mp2 {
+    flex-direction: column;
+    row-gap: 0px;
+}
+/* Tabs */
+
+ div[role="tablist"] { justify-content: stretch }
+
+button.st-d7 , button.st-d9 ,  div[role="tablist"] button  {
+    flex-grow: 1;
+    border-left: 1px solid rgb(214, 214, 217);
+    border-right: 1px solid rgb(214, 214, 217);
+    border-radius: 5px;
+    padding: 0px;
+    }
+
+/*div[role="tablist"] { padding: 0px 15px; } */
+
+div[role="tablist"] button p {font-size: medium; color: steelblue}
+
+.st-d7 button:hover { background-color: aliceblue;    } /* rgba(248, 249, 251, 1) */
+
+.st-key-sales_info .stColumn:nth-child(1),
+.st-key-sales_info .stColumn:nth-child(2) { text-align: center }
