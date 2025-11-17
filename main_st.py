@@ -2,14 +2,11 @@ from random import randint
 import numpy as np
 import streamlit as st
 import pandas as pd
-from fontTools.subset import subset
 from streamlit import session_state
 import tags
-import math
 import functions
 from tags import vis_tags, play_tags
-import plotly.graph_objects as go
-from plotnine import ggplot
+
 
 if "yr_from" not in st.session_state.keys():
     min_yr = 2010 # pd.to_datetime(data_df["releaseDate"]).dt.year.min()
