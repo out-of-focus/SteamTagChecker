@@ -8,6 +8,8 @@ import functions
 from tags import vis_tags, play_tags
 
 
+min_yr_base=2010
+max_yr_base=2025
 if "yr_from" not in st.session_state.keys():
     min_yr = 2010 # pd.to_datetime(data_df["releaseDate"]).dt.year.min()
 else:
@@ -19,7 +21,7 @@ else:
     max_yr = st.session_state["yr_to"]
 
 data_df = pd.read_csv("files/steam_show_df.csv")
-yrs_li = [str(i) for i in range(int(min_yr),int(max_yr)+1)]
+yrs_li = [str(i) for i in range(int(min_yr_base),int(max_yr_base)+1)]
 rating_li = ['Overwhelmingly Positive', 'Very Positive', 'Positive', 'Mostly Positive', 'Mixed',
                        'Mostly Negative', 'Negative', 'Very Negative', 'Include All']
 
