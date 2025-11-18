@@ -85,7 +85,7 @@ with st.container():
 
     ## Selected filters bar
     with st.container(key="filterContainer"):
-        st.markdown("SELCTED FILTERS")
+        st.markdown("SELECTED FILTERS")
 
         col1, col2, col3, col4 = st.columns([2,2,2,3])
         with col1:
@@ -224,7 +224,7 @@ with st.container():
                                  f"<p>$ {percentile_15:,}   and   $ {percentile_85:,}</p>")
                 st.markdown(bulk_text, unsafe_allow_html=True)
             with col_r3:
-                st.markdown("<p style='margin-bottom:0px; font-style: italic'>Please Note:</p><p> Set borad filters for this information to be meaningful.</p>",
+                st.markdown("<p style='margin-bottom:0px; font-style: italic'>Please Note:</p><p> Set broad filters for this information to be meaningful.</p>",
                             unsafe_allow_html=True)
 
 
