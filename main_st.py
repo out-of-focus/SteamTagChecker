@@ -290,5 +290,5 @@ with st.container():
                  "- For the time being you can estimate sales and revenue based on the number of reviews only. It's not an exact method, but it has been here for a long time and serves its purpose. "
                  "(I might add a more precise algorithm predicting sales in the future if I find the time and if there's a need for it.)\n\n"
                  "- Want to see the whole industry? Select no tags (remove them from required)\n\n"
-                 "Good luck with your games!\n\n- Mulak")
+                 "Good luck with your games! - Mulak")
 #st.write(st.session_state)
